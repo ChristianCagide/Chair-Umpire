@@ -1,0 +1,20 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
+    <!--  Racket drawn upright, then tilted 45° (stays inside the 66dp safe zone)  -->
+    <group android:pivotX="54" android:pivotY="54" android:rotation="45">
+        <!--  String bed, clipped to the racket head  -->
+        <group>
+            <clip-path android:pathData="M36,44a18,22 0 1,0 36,0a18,22 0 1,0 -36,0z"/>
+            <!--  Mains  -->
+            <path android:pathData="M42,20L42,68M48,20L48,68M54,20L54,68M60,20L60,68M66,20L66,68" android:strokeColor="#D4F53C" android:strokeWidth="1.4"/>
+            <!--  Crosses  -->
+            <path android:pathData="M30,30L78,30M30,36L78,36M30,42L78,42M30,48L78,48M30,54L78,54M30,60L78,60" android:strokeColor="#D4F53C" android:strokeWidth="1.4"/>
+        </group>
+        <!--  Frame  -->
+        <path android:pathData="M36,44a18,22 0 1,0 36,0a18,22 0 1,0 -36,0z" android:strokeColor="#FFFFFF" android:strokeWidth="3.2" android:strokeLineJoin="round"/>
+        <!--  Throat  -->
+        <path android:pathData="M44,62.3L52,70M64,62.3L56,70" android:strokeColor="#FFFFFF" android:strokeWidth="3" android:strokeLineCap="round"/>
+        <!--  Grip  -->
+        <path android:fillColor="#D4F53C" android:pathData="M51.5,70L56.5,70L56.5,84Q56.5,86 54.5,86L53.5,86Q51.5,86 51.5,84Z"/>
+        <path android:pathData="M51.5,75L56.5,73M51.5,79L56.5,77M51.5,83L56.5,81" android:strokeColor="#08152B" android:strokeWidth="0.9"/>
+    </group>
+</vector>

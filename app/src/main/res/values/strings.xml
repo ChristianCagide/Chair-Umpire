@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Chair Umpire</string>
+    <string name="service_none" />
+    <string name="service_stringing">Stringing</string>
+    <string name="service_tennis_clinic">Tennis Clinic</string>
+    <string name="service_tennis_private">Tennis Private</string>
+    <string name="service_pickleball_clinic">Pickleball Clinic</string>
+    <string name="service_pickleball_private">Pickleball Private</string>
+    <string name="service_pickleball_social">Pickleball Social</string>
+    <string name="service">Service</string>
+</resources>
